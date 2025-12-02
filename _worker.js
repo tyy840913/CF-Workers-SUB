@@ -17,7 +17,7 @@ https://cfxr.eu.org/getSub
 `;
 
 let urls = [];
-let subConverter = "sub.cmliussss.com/"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subConverter = "sub.cmliussss.com"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subConfig = "https://raw.githubusercontent.com/tyy840913/backup/refs/heads/main/ACL4SSR_Online_Full.yaml"; //订阅配置文件
 let subProtocol = 'https';
 
@@ -827,5 +827,6 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
 
 
